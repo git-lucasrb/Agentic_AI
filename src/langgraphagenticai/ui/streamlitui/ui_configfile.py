@@ -11,7 +11,7 @@ class Config:
         self.config.read(config_file)
 
     def get_page_title(self):
-        return self.config["DEFAULT"].get("PAGE_TITLE").split(", ")
+        return self.config["DEFAULT"].get("PAGE_TITLE")
 
     def get_llm_options(self):
         return self.config["DEFAULT"].get("LLM_OPTIONS").split(", ")

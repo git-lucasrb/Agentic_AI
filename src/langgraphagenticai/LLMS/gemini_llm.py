@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-class GeminiLLM
+class GeminiLLM:
     def __init__(self,user_controls_input):
         self.user_controls_input=user_controls_input
 
